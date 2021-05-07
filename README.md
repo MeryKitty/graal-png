@@ -12,7 +12,7 @@ More detailed documentation can be found in this class.
 
 Reduce half the brightness of the image
 
-'''
+```
 var image = Image.readImage(Path.of("path/to/input"));
 for (int row = 0; row < image.height(); row++) {
     for (int col = 0; col < image.width(); col++) {
@@ -29,4 +29,4 @@ for (int row = 0; row < image.height(); row++) {
     }
 }
 image.writeImage(Path.of("path/to/output"));
-'''
+```
